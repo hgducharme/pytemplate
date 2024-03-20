@@ -1,0 +1,9 @@
+{
+   "cmake.configureOnOpen": false,
+   "python.terminal.activateEnvironment": false,
+   "python.testing.pytestArgs": [
+      "tests"
+   ],
+   "python.testing.unittestEnabled": false,
+   "python.testing.pytestEnabled": true,
+}

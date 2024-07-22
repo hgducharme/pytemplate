@@ -1,3 +1,3 @@
-from pytemplate.core import core
+from pytemplate.core import method1
 
-__all__ = ["core"]
+__all__ = ["method1"]

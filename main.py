@@ -1,8 +1,10 @@
-from pytemplate import core
+from pytemplate import method1
+
 
 def main():
-   response = core()
-   print("Ran successfully.")
+    response = method1()
+    print("Ran successfully.")
+
 
 if __name__ == "__main__":
-   main()
+    main()

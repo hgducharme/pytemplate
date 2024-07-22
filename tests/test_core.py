@@ -1,6 +1,7 @@
-from pytemplate import core
+from pytemplate import method1
 
-class TestCore():
-   def test_ReturnsNone(self):
-      response = core()
-      assert(response == None)
+
+class TestCore:
+    def test_ReturnsNone(self):
+        response = method1()
+        assert response == None

@@ -1,8 +1,11 @@
 from pytemplate import config
 
-__all__ = ['core']
+__all__ = ["method1"]
 
-def core() -> None:
-   """Description."""
 
-   return None
+def method1() -> None:
+    """Description."""
+
+    project_dir = config.PROJECT_DIR
+
+    return None

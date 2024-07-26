@@ -1,6 +1,35 @@
 # pytemplate
 
-{{Description}}
+To make this boilerplate yours, complete the following checklist:
+
+1. Create a virtual environment
+
+   ```sh
+   python3 -m venv env/
+   source env/bin/activate
+   ```
+
+2. Install the requirements in requirements.txt
+
+   ```sh
+   pip install requirements.txt
+   ```
+
+3. Change this README file wherever you see text inside of double curly brackets "{{text}}", and change the top level header
+4. Rename the `pytemplate/` directory to the name of your project
+5. Create a completely empty repository on Github and push this repo
+
+   ```sh
+   git add .
+   git commit -m "initial commit"
+   git branch -M main
+   git remote add origin git@github.com:{{username}}/{{project name}}.git
+   git push -u origin main
+   ```
+
+6. Finally, delete this checklist and replace it with a brief description of your project. For example:
+
+**pytemplate allows you to hit the ground running with your python project. Remove all the frustration of creating python boilerplate so you can instantly get to coding!**
 
 ## Using the Application
 

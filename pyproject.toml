@@ -17,11 +17,14 @@ pythonpath = [
 
 
 ###
-### Coveragepy configuration
+### Coveragepy Configuration
 ###
 
 [tool.coverage.run]
 branch = true
+source = [
+    'PROJECTNAME'
+]
 
 [tool.coverage.report]
 # Regexes for lines to exclude from consideration
@@ -45,4 +48,4 @@ exclude_also = [
 ignore_errors = true
 
 [tool.coverage.html]
-directory = "coverage_html_report"
+directory = "coverage"

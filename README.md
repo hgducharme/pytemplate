@@ -82,3 +82,25 @@ or
 ```bash
 docker compose run tests
 ```
+
+### Running test coverage report
+
+Generate a coverage report,
+
+   ```bash
+   coverage run -m pytest arg1 arg2 arg3
+   ```
+
+then print out the report
+
+   ```bash
+   coverage report -m
+   ```
+
+or export the report to an HTML file
+
+   ```bash
+   coverage html
+   ```
+
+ which can be opened in your browser.

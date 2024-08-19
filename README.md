@@ -29,7 +29,7 @@ To make this boilerplate yours, complete the following checklist:
 
 6. Edit the pyproject.toml wherever you find "PROJECTNAME" or "VERSIONNUMBER"
 
-6. Finally, delete this checklist and replace it with a brief description of your project. For example:
+7. Finally, delete this checklist and replace it with a brief description of your project. For example:
 
 **pytemplate allows you to hit the ground running with your python project. Remove all the frustration of creating python boilerplate so you can instantly get to coding!**
 
